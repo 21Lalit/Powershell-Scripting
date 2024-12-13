@@ -9,8 +9,7 @@ Welcome to the **PowerShell Projects Repository**, a curated collection of autom
 This repository is home to my personal projects in **PowerShell scripting**, showcasing:
 
 - **File Integrity Checkers**: Tools to monitor and ensure the security of file systems.
-- **Forensic Utilities**: Automate evidence collection, analysis, and reporting.
-- **System Diagnostics Tools**: Scripts for quick and effective troubleshooting.
+- **User Log Activities Tracker**: Scripts to log and analyze user activity for auditing and monitoring purposes.
 
 Each project is designed with a focus on **cybersecurity** and **digital forensics**, aiming to bridge the gap between theoretical knowledge and real-world application.
 
@@ -23,11 +22,11 @@ A script that compares hash values of files to detect unauthorized changes. Idea
 - Monitoring sensitive files.
 - Ensuring compliance with cybersecurity policies.
 
-### 🕵️‍♂️ Digital Forensics Toolkit
-A suite of PowerShell scripts designed to:
-- Retrieve critical system logs.
-- Analyze memory dumps.
-- Generate detailed forensic reports.
+### 📊 User Log Activities Tracker
+A tool that:
+- Captures user login and logout events.
+- Provides detailed reports for audit purposes.
+- Helps identify potential security concerns.
 
 ---
 
