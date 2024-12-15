@@ -57,8 +57,15 @@ Steps:
 6. If files match: The received file matches the original file. No changes detected.
 7. If files differ: The received file has been changed!
 
-🖥️ Code Breakdown
+### 🖥️ Expected Results
+You can view an example of the expected results 
+
+![Expected Results](https://github.com/21Lalit/Powershell-Scripting/blob/main/File%20Integrity%20Checker/Expected-Results.png)
+---
+
+## 🖥️ Code Breakdown
 Function: Get-FileHashValue
+
 Computes the SHA-256 hash value of a given file.
 
 ---
@@ -67,6 +74,7 @@ function Get-FileHashValue {
     param ([string]$filePath)
     return (Get-FileHash -Path $filePath -Algorithm "SHA256").Hash
 }
+
 Function: Compare-Files
 Prompts the user for file paths, validates them, computes hashes, and compares the results.
 
