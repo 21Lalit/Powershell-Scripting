@@ -1,6 +1,6 @@
-# User Activity Monitor
+# User Log Activities
 
-The **User Activity Monitor** is a PowerShell script designed to track and log user activities on a Windows system. It captures login/logout events, running processes, and active window titles. This tool is ideal for monitoring user behavior, auditing, or troubleshooting purposes.
+The **User Log Activities** is a PowerShell script designed to track and log user activities on a Windows system. It captures login/logout events, running processes, and active window titles. This tool is ideal for monitoring user behavior, auditing, or troubleshooting purposes.
 
 ---
 
