@@ -33,12 +33,9 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 
 ## 📌 Example Execution
 ```
-Enter a URL (or type 'done' to finish): https://www.example.com
-Enter a URL (or type 'done' to finish): https://www.google.com
-Enter a URL (or type 'done' to finish): done
-Checked URL: https://www.example.com - Status Code: 200
-Checked URL: https://www.google.com - Status Code: 200
+ads.snapchat.com
+am-api.snapchat.com
 ```
 
 ### 🖼️ Sample Output
-![Output Screenshot](https://github.com/21Lalit/Powershell-Scripting/blob/main/Url-Status-Checker/output.png)
+![Output Screenshot](https://github.com/21Lalit/Powershell-Scripting/blob/main/Url-Status-Checker/Output.png)
